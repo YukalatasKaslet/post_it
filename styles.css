@@ -1,3 +1,5 @@
+body { margin:0; /* This is used to reset any browser-default margins */ }
+
 #board {
   font-family: monospace;
   background-color: #9e8d68;
@@ -8,6 +10,8 @@
 
 .post-it {
   position: absolute !important;
+  float: left;
+  margin: 0 auto;
   width: 160px;
   background-color: yellow;
   box-shadow: -2px 2px 5px #555;
@@ -38,4 +42,12 @@
   padding: 10px;
   min-height: 70px;
   outline: none;
+}
+
+
+/*http://jsfiddle.net/JamesD/hr8sL/ */
+#board_body{
+    height:100vh;
+/*    background:#f00;
+    color:#fff;*/
 }
