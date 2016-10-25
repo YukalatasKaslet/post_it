@@ -46,7 +46,7 @@ body { margin:0; /* This is used to reset any browser-default margins */ }
 
 
 /*http://jsfiddle.net/JamesD/hr8sL/ */
-#board_body{
+.board_body{
     height:100vh;
 /*    background:#f00;
     color:#fff;*/
